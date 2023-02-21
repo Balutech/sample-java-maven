@@ -42,14 +42,14 @@
   
 <distributionManagement>
     <repository>
-        <id>sym</id>
-        <name>release softx</name>
-        <url>http://13.233.127.211:8081/nexus/content/repositories/broadall/</url>
+        <id>artifact</id>
+        <name>Internal Releases</name>
+        <url>http://172.31.2.104:8081/artifactory/balaji-local-release</url>
     </repository>
     <snapshotRepository>
-        <id>sym</id>
-        <name>snapshot softx</name>
-        <url>http://13.233.127.211:8081/nexus/content/repositories/broadall/</url>
+        <id>artifact</id>
+        <name>Internal Releases</name>
+        <url>http://172.31.2.104:8081/artifactory/balaji-local-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 
